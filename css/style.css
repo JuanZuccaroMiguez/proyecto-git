@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/* ----- HEADER---- */
+
+.header {
+    background-color: rgba(0, 0, 0, 0.534);
+    color: rgb(222, 176, 220);
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: fixed;
+    top: 0;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+/* ---INDEX--- */
+
+/* ---PORTADA--- */
+
+.portada {
+    background-color: violet;
+    height: 100vh;
+    background-image: url("../img/flores.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.portada-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgba(238, 130, 238, 0.664);
+    padding: 20px;
+    border-radius: 40px;
+
+}
+
+/* ---NOSOTROS DESCRIPCION */
+
+.nosotros {
+    background-color: blueviolet;
+    color: black;
+    padding: 15px;
+    text-align: center;
+
+}
+
+/* --- PRODUCTOS--- */
+.nuestros-productos {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.tarjeta {
+    background-color: rosybrown;
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.tarjeta-img {
+    width: 100%;
+}
+
+.btn {
+    background-color: lightgreen;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+
+}
