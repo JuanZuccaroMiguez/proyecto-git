@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.body {
+    background-attachment: scroll;
+}
+.headermates {
+    background-color: black;
+    color: plum;
+    padding: 5px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: fixed;
+    top: 0;
+
+}
+
+.nav-listmates{
+    display: flex;
+    gap: 30px;
+
+}
+
+.matespersonalizados {
+    display: flex;
+
+    background-color: black;
+    color: plum;
+    
+    padding: 30px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+
+}
