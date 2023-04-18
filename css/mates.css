@@ -20,8 +20,9 @@ ol {
 .body {
     background-attachment: scroll;
 }
+
 .headermates {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.089);
     color: plum;
     padding: 5px;
     width: 100vw;
@@ -33,23 +34,76 @@ ol {
 
 }
 
-.nav-listmates{
+.nav-listmates {
     display: flex;
     gap: 30px;
 
 }
 
-.matespersonalizados {
+
+.portada {
+    background-color: violet;
+    height: 100vh;
+    background-image: url("../img/flores.jpg");
+    background-position: center;
+    background-size: cover;
     display: flex;
 
-    background-color: black;
-    color: plum;
-    
-    padding: 30px;
-    margin: 40px;
-    justify-content: center;
     align-items: center;
-    
-    position: absolute;
+    justify-content: center;
+}
+
+.portada-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    background-color: rgba(238, 130, 238, 0.664);
+    padding: 20px;
+    border-radius: 40px;
+
+}
+
+.distribucion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tarjeta {
+
+    padding: 20px;
+    margin: 50px;
+    background-color: rosybrown;
+
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+
+
+
+}
+
+.tarjeta-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.btn {
+    background-color: lightgreen;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
 
 }

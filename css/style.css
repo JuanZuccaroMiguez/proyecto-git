@@ -20,6 +20,8 @@ ol {
 
 /* ----- HEADER---- */
 
+
+
 .header {
     background-color: rgba(0, 0, 0, 0.534);
     color: rgb(222, 176, 220);
@@ -32,10 +34,12 @@ ol {
     top: 0;
 }
 
+
 .nav-list {
     display: flex;
     gap: 30px;
 }
+@media ( min-width: 400px) and ( max-width:768px)
 
 /* ---INDEX--- */
 
@@ -112,4 +116,9 @@ ol {
     background-color: white;
     color: black;
 
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: row;
 }
